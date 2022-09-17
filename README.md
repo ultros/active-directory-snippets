@@ -1,2 +1,2 @@
 # active-directory-snippets
-Snippets of C# dealing with Active Directory
+Code Snippets of C# dealing with Active Directory
