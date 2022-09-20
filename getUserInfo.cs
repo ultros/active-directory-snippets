@@ -31,8 +31,7 @@ static void getUserInfo()
 
 }
 
-
-    static DirectoryEntry createDirectoryEntry()
+static DirectoryEntry createDirectoryEntry()
 {
     //build connection string including active directory username (and password)
     DirectoryEntry ldapConnection = new DirectoryEntry();
