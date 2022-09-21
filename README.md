@@ -12,9 +12,9 @@ anne
 --- Completed ---  
 
 
+getUserInfo.cs  
 
-getUserInfo.cs
-
+--- Started ---  
 admincount: 1  
 samaccountname: Administrator  
 cn: Administrator  
@@ -27,4 +27,4 @@ adspath: LDAP://dc.test.local/CN=Administrator,CN=Users,DC=test,DC=local
 lastlogoff: 0  
 instancetype: 4  
 codepage: 0  
-Done  
+--- Done ---  
