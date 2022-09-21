@@ -14,7 +14,7 @@ static void getUserInfo()
     Console.WriteLine("Searcher Started");
 
     SearchResult result = searcher.FindOne();
-
+    Console.WriteLine("--- Started ---")
     if (result != null)
     {
         ResultPropertyCollection fields = result.Properties;
@@ -26,7 +26,7 @@ static void getUserInfo()
                     ldapField, myCollection.ToString()));
         }
     }
-    Console.WriteLine("Done");
+    Console.WriteLine("--- Done ---");
     Console.ReadLine();
 
 }

@@ -2,7 +2,7 @@
 Enumerate Active Directory from a non-domain joined system and list "samaccountname" for each object/user.
 */
 
-static void main()
+static void Main(string[] args)
 {
     getAllUsers();
 }
